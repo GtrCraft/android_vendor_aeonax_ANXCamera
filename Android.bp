@@ -3,7 +3,6 @@ soong_namespace {
 
 android_app_import {
 	name: "ANXCamera",
-	overrides: ["Snap", "Camera2"],
 	owner: "ANXCamera",
 	apk: "proprietary/system/priv-app/ANXCamera/ANXCamera.apk",
 	certificate: "platform",
